@@ -42,6 +42,7 @@
 1. 将blog_photos_copy目录下的5个文件拷贝到hexo博客刚新建的photos目录下，注意，只有第一次配置时需要执行这一步，后续新增照片均不需要。
 2. 新加的照片按照YYYY-MM-dd_照片文字描述.jpg格式添加到Blog-Photo的photos目录
 3. 运行Python命令：python tool.py，期间可能需要下载部分python的依赖，根据错误，百度下载就好了。
+4. 上面3后，json文件会生成到设置博客的目录下，对应博客提交同步代码上去就可以使用
 ```
 
 #### 3.配置hexo博客
@@ -59,7 +60,7 @@
 <!--音乐播放插件-->
 
 <div style="margin-top:30px;">                                                       
-  <iframe frameborder="no" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=5232465&auto=1&height=66"></iframe>
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=333750&auto=1&height=66"></iframe>
 </div>
 
 **你没有看错，就只有这三行代码，你想在那篇文章加音乐，直接添加这三行就行了，src后的链接为歌曲的外链地址，很多歌曲都因为版权而无法生成外链地址。 **
